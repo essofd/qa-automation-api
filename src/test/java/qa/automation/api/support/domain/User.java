@@ -7,7 +7,7 @@ import lombok.Data;
 @Data //@Data é igual o getter e setter juntos
 @Builder
 public class User {
-    @Builder.Default //Serve para criar valores default para as variveis
+    @Builder.Default //Serve para criar valores default para as variaveis
     private int id = 12;
     @Builder.Default
     private String username = "essofd";
